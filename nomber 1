@@ -1,0 +1,17 @@
+int main()
+{
+    setlocale(0, "");
+    char ch;
+    short int a, b, itog;
+    std::cout << "Введите первое число " << std::endl;
+    std::cin >> a;
+    std::cout << " Введите второе число" << std::endl;
+    std::cin >> b;
+    std::cout << " Теперь результат" << std::endl;
+    std::cin >> itog;
+    if (itog == a * b) {
+        std::cout << "Отлично";
+    }
+    else std::cout << "Нет.Правильно будет >> " << a * b;
+    return 0;
+}
